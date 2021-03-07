@@ -48,7 +48,7 @@ new = dict_family["members"]
 # selecting parents by using indexes in the list
 parents = [new[2], new[3]]
 # selecting grandparents by using indexes in the list
-grandparents = [new[4], new[5]]
+grandparents = [new[4]]
 # creates a new dictionary with only parents and grandparents
 new_dict = {'parents': parents, 'grandparents': grandparents}
 print("New dictionary:")
